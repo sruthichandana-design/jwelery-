@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SERENE - Fine Jewelry</title>
+    <title>Collection - SERENE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
@@ -25,12 +25,12 @@
         </ul>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>SERENE</h1>
-            <p>Refined Elegance for Every Occasion</p>
-            <a href="collection.html" class="cta-button">View Collection</a>
+    <!-- Collection Section -->
+    <section class="collection">
+        <h2 class="section-title">Our Collection</h2>
+        <p class="section-subtitle">Timeless pieces crafted with care</p>
+        <div class="products-grid" id="productsGrid">
+            <!-- Products will be dynamically inserted here -->
         </div>
     </section>
 
@@ -55,6 +55,7 @@
     <!-- Overlay -->
     <div class="overlay" id="overlay" onclick="toggleCart()"></div>
 
+    <script src="products.js"></script>
     <script src="cart.js"></script>
 </body>
 </html>
